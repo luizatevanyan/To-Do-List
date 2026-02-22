@@ -1,5 +1,5 @@
 body{
-background-color: rgb(81, 187, 187);
+background-color:  #E6F4F4;
 font-family: 'Courier New', Courier, monospace;
 text-align: center;
 
@@ -8,12 +8,12 @@ text-align: center;
 h2{
     margin-top: 60px;
     margin-bottom: 60px;
-    color: #7d0577;
+    color:  #145A5A;
 }
 
 input{
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid #B0D4D4cc;
     width: 400px;
     height: 20px;
 }
@@ -22,17 +22,17 @@ button#submit-button {
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     font-weight: bold;
-    color:#7d0577;
+    color:white;
     width: 80px;
     height: 30px;
-     border: none;
+    border: none;
     border-radius: 6px;
-    background-color: rgba(0, 255, 255, 0.333);
+    background-color:#1B9C9C;
     cursor: pointer;
 }
 
 button#submit-button:hover{
-    background-color: pink;
+    background-color: #147373;
 }
 
 ul#task-list {
@@ -51,22 +51,22 @@ li {
   display: flex;                 
   justify-content: space-between; 
   align-items: center;          
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.08); 
   
 }
 
 li button {
-    color:#7d0577;
+    color:white;
     width: 40px;
     height: 30px;
     border: none;
     border-radius: 6px;
-    background-color: rgba(0, 255, 255, 0.333);
+    background-color: #1B9C9C;
     cursor: pointer;
 }
 
 li button:hover {
-   background-color: pink;
+   background-color: #147373;
 }
 
 .completed {
