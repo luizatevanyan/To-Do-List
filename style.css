@@ -1,0 +1,75 @@
+body{
+background-color: rgb(81, 187, 187);
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+
+}
+
+h2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #7d0577;
+}
+
+input{
+    font-size: 16px;
+    border: 1px solid #ccc;
+    width: 400px;
+    height: 20px;
+}
+
+button#submit-button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+    color:#7d0577;
+    width: 80px;
+    height: 30px;
+     border: none;
+    border-radius: 6px;
+    background-color: rgba(0, 255, 255, 0.333);
+    cursor: pointer;
+}
+
+button#submit-button:hover{
+    background-color: pink;
+}
+
+ul#task-list {
+  list-style-type: none; 
+  margin-top: 20px;      
+  max-width: 400px;      
+  margin-left: auto;    
+  margin-right: auto;    
+}
+
+li {
+  background-color: white;      
+  margin-bottom: 10px;         
+  padding: 10px 15px;           
+  border-radius: 8px;          
+  display: flex;                 
+  justify-content: space-between; 
+  align-items: center;          
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+  
+}
+
+li button {
+    color:#7d0577;
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(0, 255, 255, 0.333);
+    cursor: pointer;
+}
+
+li button:hover {
+   background-color: pink;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
